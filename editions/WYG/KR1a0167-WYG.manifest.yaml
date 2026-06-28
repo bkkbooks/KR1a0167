@@ -1,0 +1,47 @@
+canonical_identifier: bkk:krp/KR1a0167/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1a0167/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 易緯通卦驗
+  date: '2015-08-24 22:01:17.568226'
+  source:
+    repository: kanripo
+    path: KR1a0167
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1a0167_000-WYG.yaml, hash: 'sha256:e5eb27a6871ddcf2988e18362c3b58f2650841503213236aa558771c6deb1759'}
+  - {seq: 1, filename: KR1a0167_001-WYG.yaml, hash: 'sha256:833f7db03fc73ca06de5552ba3a543d611b8a38b1c507a57bf66c826cd836733'}
+  - {seq: 2, filename: KR1a0167_002-WYG.yaml, hash: 'sha256:e52904b3b248b861ef7b51e4e4e0c474c619892914ecbd1487aeef0cc1ddbe5d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1a0167_001-WYG.markers.yaml, hash: 'sha256:fb3aca755e370a8cdd74804578f370fe06552a19b851b59b521bc58d64161b8f'}
+  - {seq: 2, role: markers, filename: assets/KR1a0167_002-WYG.markers.yaml, hash: 'sha256:41c81baf5dea039c7f27775f81f2791dc468fd86f60cc7ea506ffc64c8b592ca'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1a0167_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 4270
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1a0167_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 9305
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:31211f322a859099c85137040dca8f9e7ba8bc0fe2af3e39f97d7dfed0e5aa24
